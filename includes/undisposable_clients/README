@@ -1,0 +1,24 @@
+Undisposable Clients v0.1
+=========================
+
+These libraries provides easy access to web services 
+hosted by undisposable.org
+
+Currently supported languages:
+* PHP
+* Python
+* Perl - beta
+* Java - alpha
+
+Feel free to test and send us more API kits.
+
+For more information, see our web site at 
+http://www.undisposable.org
+
+Undisposable.org is a collaborative protection system
+against disposable email addressing (DEA) - services 
+like 10minutemail.com, jetable.com, pookmail.org etc
+
+Contact us from undisposable@gmail.com
+
+Thanks,

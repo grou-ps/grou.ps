@@ -1,0 +1,49 @@
+You need the following packages:
+
+Requirements:
+- php-4.0.6 or higher (recommended: 4.1.0 or higher)
+- PEAR (PHP Extension and Application Repository), comes with 4.1.0 or higher
+- for some checkDate parameters, you need the PEAR Date package (which doesn't come with php)
+- webserver ;-) 
+
+- PEAR database object
+- 2 tables in database:
+
+CREATE TABLE `dbsession` (
+  `session_id` char(32) character set latin1 NOT NULL default '',
+  `session_subid` char(32) character set latin1 default NULL,
+  `session_start` datetime default NULL,
+  `session_end` datetime default NULL,
+  `session_is` char(32) character set latin1 NOT NULL default '',
+   KEY `session_id` (`session_id`)
+)
+
+CREATE TABLE `dbsession_detail` (
+  `session_id` varchar(32) character set latin1 NOT NULL default '',
+  `session_array` char(1) character set latin1 default 'N',
+  `session_var` varchar(32) character set latin1 NOT NULL default '',
+  `session_value` text character set latin1,
+   KEY `session_id` (`session_id`),
+   KEY `session_var` (`session_var`)
+)
+
+Some information:
+If this variable (called m_db_type) is not set to "postgres", all functions will be use MySQL.
+
+
+Description for dbsession:
+--------------------------
+dbsession is like the php session but you can store the same variables for
+different user (e.g. within a CMS). The variable name is limited to 32 chars ( not the value!).
+You can even store arrays in dbsession, it will 
+
+
+For more information go to: http://www.macher24.de/cphplib_english.html
+
+CVS Version can be fount at http://cvs.maker24.de/horde/chora/browse.php/cphplib/
+
+If any problems occur, please feel free to send me an email to
+am@meindlsoft.com
+
+Have fun!
+   Alex

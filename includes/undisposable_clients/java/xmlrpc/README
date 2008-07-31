@@ -1,0 +1,4 @@
+Untested
+Requires deprecated helma.xmlrpc libs :: http://helma.at/hannes/xmlrpc/
+TODO test and port it to Apache libs
+include a compiled library

@@ -1,0 +1,103 @@
+2005-11-11 Alexander Meindl <alex@macher24.de>
+	* formular processing integrated
+	* mod_rewrite name converter function has been added
+	* dbsession reload fix
+	* table_header function has been added
+
+2005-05-22 Alexander Meindl <am@meindlsoft.com>
+	* documentation update (phpDocumentor compatible)
+	* PHP5 compatible
+	* lots of small addons and fixes
+	
+2004-08-25 Alexander Meindl <am@meindlsoft.com>
+	* security fix in regular expressions
+	* rewrite of checkPassword
+	* small cleanups
+
+2004-04-18 Alexander Meindl <am@meindlsoft.com>
+	* dbsession bug has been fixed
+	* function cleanups and improvements
+
+2004-01-12 Alexander Meindl <am@meindlsoft.com>
+	* some bugs has been fixed
+	* extended function browser_type
+	* function get_image_size has been added
+	* function text_shorten has been added
+
+2003-10-04 Alexander Meindl <am@meindlsoft.com>
+	* bug fix for UTF8 characters and checkEmail function
+	* checkSpecialIndex and checkFirstChar have been removed
+
+2003-04-09 Alexander Meindl <am@meindlsoft.com>
+	* added new functions: get_server_var, get_fontsizes, cross_sum, age_from_birthday, get_id_string
+	* added hitcounter system
+	* major bug fixes
+
+2002-10-24 Alexander Meindl <am@meindlsoft.com>
+	* bug fix for dbsession
+	* validate_timestamp has been added
+	* minor enhancements
+
+2002-08-14 Alexander Meindl <am@meindlsoft.com>
+	* os_type now supports server and client mode
+	* sesssion fallback functionality
+
+2002-06-24 Alexander Meindl <am@meindlsoft.com>
+	* os_type has been added
+	* fixed bug in check_php_version
+	* basic db functions removed (now PEAR DB is required)
+	* addon functions for PEAR DB
+	* dbSession for database session handling has been added
+	* various small bugs fixed
+
+2002-04-10 Alexander Meindl <am@meindlsoft.com>
+	* check_php_version has been added
+	* fixed bug in dbVersion
+	* support for php 4.2.0
+	* checkNumber now works with negative numbers
+
+2002-02-21 Alexander Meindl <am@meindlsoft.com>
+        * checkEmail was improved
+
+2002-02-18 Alexander Meindl <am@meindlsoft.com>
+        * convQuote has been renamed to convHtml
+	* add array_sort
+
+2002-02-06 Alexander Meindl <am@meindlsoft.com>
+	* db abstraction for postres
+        * database functions have been moved from global into cphplib class
+
+2002-01-30 Alexander Meindl <am@meindlsoft.com>
+	* dbErr() has been removed
+	* bugfix in dbClose
+
+2002-01-29 Alexander Meindl <am@meindlsoft.com>
+	* add new files: word_file.txt, newslist.txt, TODO
+        * comments has been updated
+        * add,sub,mul,div and round has been removed
+	* checkEmail has been fixed (nasty bug for dns check)
+	* functions were cleaned up
+
+2002-01-24 Alexander Meindl <am@meindlsoft.com>
+	* newsList has been updated with a date format
+	* convDate has been rewritten
+	* browser_type has been added
+	* checkNumber and convTime have been fixed
+	* convMwst has been renamed to convTax (with updates)
+
+2001-12-04 Alexander Meindl <am@meindlsoft.com>
+        * many functions were cleaned up
+        * some new functions were added
+	* more documentation was added
+
+2001-10-10 Alexander Meindl <am@meindlsoft.com>
+	* new isvoid function (replacement for empty())
+	* small bug fixes
+
+2001-07-23 Alexander Meindl <am@meindlsoft.com>
+	* many new functions
+	- many, many bug fixes
+
+2001-06-28 Alexander Meindl <am@meindlsoft.com>
+	* cphplib.inc:
+	  First release of the package.

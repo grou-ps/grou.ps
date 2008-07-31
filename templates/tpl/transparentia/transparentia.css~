@@ -1,0 +1,129 @@
+body,div,dl,dt,dd,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote{margin:0;padding:0;}
+fieldset,img{border:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:400;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400;}
+q:before,q:after{content:'';}
+abbr,acronym{border:0;}
+body {
+	background: #EEE url(images/bg.gif);
+	color: #444;
+	font: normal 12px arial, helvetica, sans-serif;
+	margin: 0;
+}
+a{color: #36C; }
+a:hover{color: #06F;}
+#layout{z-index:1; width: 990px; margin: 26px auto 0 auto; background: url(templates/tpl/transparentia/images/bgcontainer.png) repeat-y; }
+#topbar{z-index:2;}
+input,select,option,textarea,button{padding: 2px;
+  font: 12px arial, helvetica, sans-serif;
+  color: #444;
+  background: #fff;
+  border: 1px solid #38842B; }
+input[type=button],input[type=submit],button{  padding: 2px 5px;
+  font: 12px arial, helvetica, sans-serif;
+  color: #fff;
+  background: #47A636;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #38842B; cursor: pointer; }
+select, option { padding: 0; }
+#header{
+        clear: both;
+	width: 972px;
+text-align: left;
+background: url(http://grou.ps/templates/tpl/transparentia/images/header.gif) repeat-x center top;
+height: 160px;
+margin: 26px auto 30px auto;
+}
+#h1 a{ 	
+	letter-spacing: -1px; 
+	padding: 60px 0 0 20px;
+	margin: 0;
+	text-decoration: none;
+	color: #FFF;
+	font: bold 28px 'trebuchet ms', Arial, helvetica,sans-serif;
+display: block;
+line-height: 18px;
+}
+#h1_sub a{margin: 0;
+	padding: 5px 0 60px 22px; 
+	font: 11px Arial, Helvetica, sans-serif;
+	color: #fff; text-decoration: none;display: block;line-height: 18px; }
+#h1 a:hover, #h1_sub a:hover { color: #fff; }
+#menu{ clear: both;background: url(http://grou.ps/templates/tpl/transparentia/images/bgul.gif) repeat-x; height: 32px;}
+#nav { margin: 0; padding: 0; list-style: none; clear: both; font-weight: bold; height: 32px; }
+#nav li.selected a {
+	color: #FFF;
+}
+#nav li{display:inline;
+    margin:0;
+    padding:0; } 
+#nav li a{
+	color: #666;
+	float: left;
+	height: 31px; 
+	letter-spacing: 1px;
+	line-height: 31px;
+	text-align: center;
+	text-decoration: none;
+	width: 85px; border-right: 1px solid #ccc; border-left: 1px solid #fff; }
+#nav li a:hover {
+	color: #FFF;
+	background-position: left bottom;
+}
+.box_top{ width:auto;
+line-height: 32px;
+    font-size: 1.4em;
+font-weight: bold;
+letter-spacing: -1px;
+padding-left: 10px; color: #357EA6; }
+.box_top a {color: #357EA6;}
+#footer{ clear: both;
+        color: #886;
+	font-size: 0.9em;
+	padding-bottom: 12px;
+	text-align: center; }
+#footer a { color: #664; }
+#content{width:970px;margin:0 auto 0 auto;padding:15px 0 0 0; clear: both; }
+#content .col_full{float:left;position:relative;left:0;width:100%;margin-bottom:0;}
+#content .col_left{float:left;position:relative;width:50%;}
+#content .col_right{float:left;position:relative;width:50%;}
+#content .col_main{float:left;position:relative;width:80%;}
+#content .col_side{float:left;position:relative;width:20%;}
+#content .box{width:auto;margin-bottom:15px;text-align: left; color: #555533; background: #fff; border: 1px solid #EEEEEE; }
+#content .col_left .box{margin-right:8px; }
+#content .col_right .box{margin-left:8px;}
+#content .col_left .box_mid_ops{margin-right:8px;}
+#content .col_right .box_mid_ops{margin-left:8px;}
+#content .col_main .box{margin-right:8px;}
+#content .col_side .box{margin-left:8px;}
+#content .col_main .box_mid_ops{margin-right:8px;}
+#content .col_side .box_mid_ops{margin-left:8px;}
+#content .box_subtitle{ height:17px; padding:3px 9px 3px 10px; margin: 0 10px 0 10px; background: #80B8D6; }
+#content .box_subtitle a { color: #fff; }
+#content .box_subtitle .box_subtitle_info{float:left; font-size: 10px; color: #fff; font-family: arial, sans-serif; }
+#content .box_subtitle .box_subtitle_operations{float:right;}
+#content .box_mid{width:100%;margin:10px 0 0 0;padding:0;}
+#content .box_mid .content{overflow:hidden;margin:10px;padding:0;}
+#content .box_mid .content p{margin-left:0;margin-right:0;padding:0;}
+#content .box_mid .userdependent{overflow-x:auto;margin:10px;padding:0;}
+#content .box_mid_ops{width:auto; margin-bottom:15px; color: #fff; background: #7EA636; border: 1px solid #47A636; }
+#content .box_mid_ops .content{font-weight:700;overflow:hidden;padding:10px;}
+#content .box_mid_ops a { color: #fff; }
+#content .box_bottom_ops{display:none;}
+#content .box_bottom { display:none; }
+#busy_popup{width:40px;height:40px;background-color:transparent;background-image:url(http://grou.ps/images/loading.gif);position:absolute;z-index:100;visibility:hidden;}
+#ajax_popup{width:500px;height:350px;background-color:#999;background-image:url(http://grou.ps/images/ajaxpopupbg.gif);visibility:hidden;position:absolute;text-align:right;z-index:100;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity:0.95;font-size:11px;border-color:#000;border-style:solid;border-width:2px;padding:10px;}
+#ajax_popup a{font-family:Verdana,Arial,Helvetica,Geneva,sans-serif;color:#FF0;font-weight:700;font-size:11px;}
+#ajax_popup a:HOVER{background-color:#FF0;color:#000;text-decoration:none;}
+#ajax_popup_content{font-family:Verdana,Arial,Helvetica,Geneva,sans-serif;color:#fff;font-weight:700;margin-bottom:12px;font-size:11px;}
+#toplevel_warning{border-bottom-color:#000;border-bottom-style:solid;border-bottom-width:2px;background-color:#999;background-image:url(img/ajaxpopupbg.gif);visibility:hidden;position:absolute;text-align:center;z-index:100;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=95);-moz-opacity:0.95;-khtml-opacity:0.95;opacity:0.95;font-size:13px;font-family:Trebuchet MS, Sans, Arial, Helvetica, Verdana;color:#fff;font-weight:700;left:0;top:0;overflow:hidden;padding:12px;}
+#toplevel_warning a{font-size:13px;font-family:Trebuchet MS, Sans, Arial, Helvetica, Verdana;color:#FF0;font-weight:700;}
+#toplevel_warning a:HOVER{background-color:#FF0;color:#000;text-decoration:none;}
+#bg_differentiation{position:absolute;z-index:99;display:none;width:100%;background-image:url(http://grou.ps/images/overlay.png);}
+* html #bg_differentiation{background-color:#333;back\ground-color:transparent;background-image:url(http://grou.ps/images/blank.gif);filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://grou.ps/images/overlay.png",sizingMethod="scale");}
+#theCrop{background-color:#FFFFE0;position:absolute;visibility:hidden;z-index:101;width:80px;height:80px;border-color:#000;border-style:solid;border-width:1px;}
+a.closeButton{display:block;float:right;height:12px;width:12px;background:transparent url(http://grou.ps/images/close_duo.gif) no-repeat top left;text-decoration:none;}
+a.closeButton:hover{background:transparent url(http://grou.ps/images/close_duo.gif) no-repeat 0 -12px;}
+.tooltip{position:absolute;width:250px;height:75px;background-image:url(http://grou.ps/images/tooltip_bg.png);font-size:11px;visibility:hidden;filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);-moz-opacity:0.8;-khtml-opacity:0.8;opacity:0.8;overflow:hidden;border-color:#000;border-style:solid;border-width:1px;margin:0;padding:5px;}
